@@ -11,6 +11,7 @@ body{
     font-size: 16px;
 }
 
+/* -------------------------------------------------------------------------- */
 
 /* ICI LE HEADER */
 header{
@@ -28,6 +29,7 @@ header{
     color: #0065FC;
 }
 
+/* -------------------------------------------------------------------------- */
 
 /* ICI LE MAIN */
 main{
@@ -137,8 +139,54 @@ main{
     margin-right: 0.5rem;
 }
 .information p{
-    width: 80%;
+    width: 81%;
 }
+.populaires{
+    border: 2px solid lawngreen;
+    background-color: #F2F2F2;
+}
+.populaires_emoticone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.populaires_emoticone i{
+    font-size: 1.5rem;
+}
+.hotel{
+    border: 2px solid hotpink;
+    display: flex;
+    margin: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    height: 20vh;
+    width: 87%;
+    align-items: center;
+}
+.populaires img{
+    width: 100%;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+.hotel_image{
+    border: 2px solid maroon;
+    border-radius: 1rem 0rem 0rem 1rem;
+    width: 45%;
+    height: 20vh;
+}
+.hotel_image img{
+    height: 20vh;
+}
+.hotel_texte{
+    border: 2px solid lightcoral;
+    margin: 0.5rem;
+    width: 50%;
+    font-size: 14px;
+}
+.hotel_texte h3{
+    margin: 0rem;
+    
+}
+/* -------------------------------------------------------------------------- */
 
 /* ICI LE FOOTER */
 footer{
