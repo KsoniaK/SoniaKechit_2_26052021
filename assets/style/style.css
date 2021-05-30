@@ -8,6 +8,7 @@
 
 body{
     font-family: "Raleway", serif;
+    font-size: 16px;
 }
 
 
@@ -48,12 +49,102 @@ main{
     width: 50%;
     color: #0065FC;
 }
-
+.titre{
+    margin: 1rem;
+}
+.rechercher button{
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 0;
+}
+.rechercher{
+    margin-top: 2rem;
+}
+.rechercher input{
+    height: 2.5rem;
+    width: 75%;
+    border: none;
+}
+.emoticone_rechercher{
+    background-color:  #F2F2F2;
+    width: 2.5rem;
+    height: 6vh;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emoticone_rechercher2{
+    color: white;
+    background-color: #0065FC;
+    width: 2.5rem;
+    height: 6vh;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtres{
+    margin: 1rem;
+}
+.filtres h3{
+    margin-top: 2rem;
+}
+.filtres1{
+    display: flex;
+}
+.filtre{
+    border: 1px solid lightgray;
+    width: 69%;
+    height: 2.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.emoticone_filtre{
+    display: flex;
+    align-items: center;
+}
+.emoticone_filtre_background{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 2.5rem;
+    height: 6vh;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_filtre{
+    margin: 1rem;
+    font-weight: bold;
+}
+.information{
+    display: flex;
+    margin: 0.5rem;
+}
+.information i{
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+}
+.information p{
+    width: 80%;
+}
 
 /* ICI LE FOOTER */
 footer{
     border: 2px solid green;
     background-color: #F2F2F2;
+    margin: 1rem;
 }
 .a_propos{
     border: 2px solid darkcyan;
