@@ -1,3 +1,6 @@
+/* SMARTPHONE */
+/* SHIFT + ALT + A = COMMENTAIRE */
+
 @font-face{
     font-family: Raleway;
     src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf)
@@ -5,4 +8,59 @@
 
 body{
     font-family: "Raleway", serif;
+}
+
+
+/* ICI LE HEADER */
+header{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border: 2px solid yellow;
+}
+.inscription{
+    border: 2px solid firebrick;
+}
+.inscription p{
+    color: #0065FC;
+}
+
+
+/* ICI LE MAIN */
+main{
+    border: 2px solid red;
+}
+.navigation{
+    border: 2px solid cadetblue;
+    display: flex;
+    /* justify-content: space-evenly; */
+    text-align: center;
+}
+.hebergements{
+    border: 2px solid navy;
+    width: 50%;
+    color: #0065FC;
+}
+.activites{
+    border: 2px solid rebeccapurple;
+    width: 50%;
+    color: #0065FC;
+}
+
+
+/* ICI LE FOOTER */
+footer{
+    border: 2px solid green;
+    background-color: #F2F2F2;
+}
+.a_propos{
+    border: 2px solid darkcyan;
+}
+.nos_hebergements{
+    border: 2px solid darkgray;
+}
+.assistance{
+    border: 2px solid darkorange;
 }
