@@ -54,6 +54,8 @@ main{
 .titre{
     margin: 1rem;
 }
+
+/* ICI SECTION RECHERCHE */
 .rechercher button{
     border: 1px solid lightgray;
     border-radius: 0.5rem;
@@ -92,6 +94,8 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+/* ICI SECTION FILTRES */
 .filtres{
     margin: 1rem;
 }
@@ -141,6 +145,8 @@ main{
 .information p{
     width: 81%;
 }
+
+/* ICI SECTION HOTELS POPULAIRES */
 .populaires{
     border: 2px solid lawngreen;
     background-color: #F2F2F2;
@@ -184,7 +190,83 @@ main{
 }
 .hotel_texte h3{
     margin: 0rem;
-    
+}
+
+/* ICI SECTION HOTELS MARSEILLE */
+.marseille{
+    border: 2px solid green;
+}
+.marseille_titre h2{
+    margin: 1rem;
+}
+.marseille_hotel{
+    border: 2px solid hotpink;
+    margin: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    height: 27vh;
+    width: 87%;
+    align-items: center;
+}
+.marseille_image{
+    border: 2px solid maroon;
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 100%;
+    height: 16vh;
+}
+.marseille_image img{
+    height: 16vh;
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    object-fit: cover;
+}
+.marseille_texte{
+    border: 2px solid lightcoral;
+    width: 100%;
+    font-size: 14px;
+    height: 10vh;
+}
+.marseille_texte p{
+    margin: 0.5rem;
+    margin-left: 0;
+}
+.marseille_texte h3{
+    margin: 0rem;
+}
+.afficher_plus{
+    margin: 1rem;
+}
+
+/* ICI SECTION ACTIVITES MARSEILLE */
+.activites_marseille{
+    margin: 1rem;
+}
+.activites_marseille_image_texte{
+    border: 2px solid purple;
+    margin: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    height: 27vh;
+    width: 87%;
+    align-items: center;
+}
+.mactivites_image{
+    border: 2px solid maroon;
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 100%;
+    height: 16vh;
+}
+.activites_image img{
+    height: 18vh;
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    object-fit: cover;
+}
+.activites_texte{
+    border: 2px solid lightcoral;
+    width: 100%;
+    font-size: 14px;
+    height: 8vh;
 }
 /* -------------------------------------------------------------------------- */
 
@@ -192,7 +274,7 @@ main{
 footer{
     border: 2px solid green;
     background-color: #F2F2F2;
-    margin: 1rem;
+    padding: 1rem;
 }
 .a_propos{
     border: 2px solid darkcyan;
