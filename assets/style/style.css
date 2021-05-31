@@ -51,6 +51,18 @@ main{
     width: 50%;
     color: #0065FC;
 }
+.div_hr{
+    display: flex;
+}
+hr{
+    width: 50%;
+}
+.premier{
+    border: 1.5px solid #0065FC;
+}
+.second{
+    border: 1.5px solid #F2F2F2;
+}
 .titre{
     margin: 1rem;
 }
@@ -116,6 +128,9 @@ main{
     align-items: center;
     padding: 0;
 }
+.filtre:hover{
+    opacity: 0.5;
+}
 .emoticone_filtre{
     display: flex;
     align-items: center;
@@ -168,6 +183,7 @@ main{
     height: 20vh;
     width: 87%;
     align-items: center;
+    box-shadow: 5px 3px 3px lightgray;
 }
 .populaires img{
     width: 100%;
@@ -187,13 +203,14 @@ main{
     margin: 0.5rem;
     width: 50%;
     font-size: 14px;
+    color: black;
 }
 .hotel_texte h3{
     margin: 0rem;
 }
 
 /* ICI SECTION HOTELS MARSEILLE */
-.marseille{
+#marseille{
     border: 2px solid green;
 }
 .marseille_titre h2{
@@ -209,6 +226,7 @@ main{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 5px 3px 3px lightgray;
 }
 .marseille_image{
     border: 2px solid maroon;
@@ -227,6 +245,7 @@ main{
     width: 100%;
     font-size: 14px;
     height: 10vh;
+    color: black;
 }
 .marseille_texte p{
     margin: 0.5rem;
@@ -236,11 +255,14 @@ main{
     margin: 0rem;
 }
 .afficher_plus{
+    color: black;
+}
+.a_p{
     margin: 1rem;
 }
 
 /* ICI SECTION ACTIVITES MARSEILLE */
-.activites_marseille{
+#activites_marseille{
     margin: 1rem;
 }
 .activites_marseille_image_texte{
@@ -253,6 +275,7 @@ main{
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: 5px 3px 3px lightgray;
 }
 .mactivites_image{
     border: 2px solid peru;
@@ -271,6 +294,11 @@ main{
     width: 100%;
     font-size: 14px;
     height: 8vh;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #0065FC;
 }
 /* -------------------------------------------------------------------------- */
 
@@ -288,4 +316,7 @@ footer{
 }
 .assistance{
     border: 2px solid darkorange;
+}
+footer a{
+    color: black;
 }
