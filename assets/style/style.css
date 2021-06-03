@@ -6,8 +6,20 @@
     src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf)
 }
 
+/* LE RESET */
+
+*{
+    box-sizing: border-box;
+}
+/* html {
+    font-size:62.5%;
+    
+} */
 body{
+    font-size: 1.6rem;
+    margin: 0;
     font-family: "Raleway", serif;
+    z-index: 1;
     font-size: 16px;
 }
 
@@ -27,6 +39,9 @@ header{
 }
 .inscription p{
     color: #0065FC;
+}
+.nav{
+    display: none;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -86,6 +101,7 @@ hr{
     height: 2.5rem;
     width: 75%;
     border: none;
+    font-size: 16px;
 }
 .emoticone_rechercher{
     background-color:  #F2F2F2;
@@ -148,14 +164,26 @@ hr{
 .p_filtre{
     margin: 1rem;
     font-weight: bold;
+    font-size: 16px;
 }
+
+/* SECTION INFORMATION */
 .information{
     display: flex;
     margin: 0.5rem;
 }
-.information i{
+.information_emoticone{
+    text-align: center;
+}
+.information_emoticone i{
     margin-top: 1.5rem;
     margin-right: 0.5rem;
+    color: #0065FC;
+    border: 1px solid lightgray;
+    width: 1rem;
+    border-radius: 1rem;
+    width: 1.5rem;
+    height: 3.5vh;
 }
 .information p{
     width: 81%;
@@ -183,7 +211,9 @@ hr{
     height: 20vh;
     width: 87%;
     align-items: center;
-    box-shadow: 5px 3px 3px lightgray;
+    box-shadow: 5px 3px 25px lightgray;
+    margin-left: auto;
+    margin-right: auto;
 }
 .populaires img{
     width: 100%;
@@ -194,9 +224,10 @@ hr{
     border-radius: 1rem 0rem 0rem 1rem;
     width: 45%;
     height: 20vh;
+    padding: .2rem;
 }
 .hotel_image img{
-    height: 20vh;
+    height: 18.5vh;
 }
 .hotel_texte{
     border: 2px solid lightcoral;
@@ -208,6 +239,16 @@ hr{
 .hotel_texte h3{
     margin: 0rem;
 }
+span i{
+    color: #0065FC
+}
+.span_1 i:last-child{
+    color: #F2F2F2
+}
+.span_2 i{
+    color: #F2F2F2
+}
+
 
 /* ICI SECTION HOTELS MARSEILLE */
 #marseille{
@@ -226,26 +267,27 @@ hr{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 3px 3px lightgray;
+    box-shadow: 5px 3px 25px lightgray;
 }
 .marseille_image{
     border: 2px solid maroon;
     border-radius: 1rem 1rem 0rem 0rem;
     width: 100%;
     height: 16vh;
+    padding: .2rem;
 }
 .marseille_image img{
-    height: 16vh;
+    height: 15vh;
     width: 100%;
     border-radius: 1rem 1rem 0rem 0rem;
     object-fit: cover;
 }
 .marseille_texte{
     border: 2px solid lightcoral;
-    width: 100%;
     font-size: 14px;
-    height: 10vh;
+    height: 11vh;
     color: black;
+    margin-left: 1rem;
 }
 .marseille_texte p{
     margin: 0.5rem;
@@ -275,26 +317,27 @@ hr{
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 5px 3px 3px lightgray;
+    box-shadow: 5px 3px 25px lightgray;
 }
-.mactivites_image{
+.activites_image{
     border: 2px solid peru;
     border-radius: 1rem 1rem 0rem 0rem;
     width: 100%;
     height: 16vh;
+    padding: .2rem;
 }
 .activites_image img{
-    height: 18vh;
+    height: 15vh;
     width: 100%;
     border-radius: 1rem 1rem 0rem 0rem;
     object-fit: cover;
 }
 .activites_texte{
     border: 2px solid lightseagreen;
-    width: 100%;
     font-size: 14px;
     height: 8vh;
     color: black;
+    margin-left: 1rem;
 }
 a{
     text-decoration: none;

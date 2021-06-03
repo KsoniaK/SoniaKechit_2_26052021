@@ -1,8 +1,75 @@
     /* TABLETTE*/
 @media screen and (min-width: 481px){
+    .nav{
+        display: none;
+    }
+    .marseille_titre{
+        display: flex;
+        justify-content: center;
+    }
+    .marseille_texte{
+        margin-top: 1rem!important;
+        height: 9vh!important;
+    }
 
+    #activites_marseille{
+        display: flex;
+        justify-content: center;
+    }
+    .titre{
+        text-align: center;
+    }
+    .information{
+        display: ruby!important;
+    }
+    .information_emoticone p{
+        width: 100%!important;
+    }
+    .information_emoticone i{
+        height: 2vh!important;
+    }
+    .emoticone_filtre_background{
+        height: 4vh!important;
+    }
+    .activites_texte{
+        margin-top: 2rem!important;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
 }
     /* ORDINATEUR*/
 @media screen and (min-width: 1025px){
-
+    .logo{
+        margin: 1rem;
+    }
+    .titre{
+        text-align: start;
+    }
+    .rechercher button{
+        margin-left: 1rem!important;
+    }
+    .div_hr{
+        display: none!important;
+    }
+    .inscription{
+        display: none;
+    }
+    .navigation{
+        display: none!important;
+    }
+    .nav{
+        border: 2px solid green;
+        display: flex;
+        width: 30%;
+        display: flex!important;
+        justify-content: space-around!important;
+    }
+    .emoticone_filtre_background{
+        height: 7vh!important;
+    }
+    .information_emoticone i{
+        height: 3.5vh!important;
+    }
 }
