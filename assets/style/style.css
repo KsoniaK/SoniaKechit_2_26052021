@@ -135,7 +135,6 @@ hr{
 }
 .filtre{
     border: 1px solid lightgray;
-    width: 69%;
     height: 2.5rem;
     margin: 0.5rem;
     border-radius: 1rem;
@@ -143,6 +142,10 @@ hr{
     display: flex;
     align-items: center;
     padding: 0;
+}
+.filtre_desktop{
+    margin: 1rem;
+    display: none;
 }
 .filtre:hover{
     opacity: 0.5;
@@ -172,6 +175,12 @@ hr{
     display: flex;
     margin: 0.5rem;
 }
+.information_desktop{
+    display: none;
+}
+.information_desktop{
+    display: none;
+}
 .information_emoticone{
     text-align: center;
 }
@@ -188,8 +197,14 @@ hr{
 .information p{
     width: 81%;
 }
+.container{
+    display: none;
+}
 
 /* ICI SECTION HOTELS POPULAIRES */
+.container_bis{
+    display: none;
+}
 .populaires{
     border: 2px solid lawngreen;
     background-color: #F2F2F2;
