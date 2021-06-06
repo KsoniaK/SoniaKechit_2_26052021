@@ -94,7 +94,7 @@
         align-items: center;
     }
     .emoticone_filtre_background{
-        height: 7vh!important;
+        height: 5vh!important;
     }
     .information_emoticone i{
         height: 3.5vh!important;
@@ -141,52 +141,81 @@
         justify-content: space-around;
     }
     .container{
-        height: 80%;
+        padding: 2rem;
+        /* height: 80%; */
         border: 2px solid firebrick;
         display: grid!important;
-        grid-template-columns: 200px 200px 200px;
-        grid-template-rows: 160px 160px; 
+        grid-template-columns: 260px 260px 260px;
+        grid-template-rows: 13px 230px; 
         column-gap: 30px;
         row-gap: 15px;
         align-content: start;
       }
       .populaires_emoticone{
           align-items: start!important;
+          margin-top: 2rem;
       }
       .populaires_emoticone h2{
         margin-bottom: 0;
+        margin-top: 0;
     }
       .marseille_titre{
-          display: grid;
-          grid-template-columns: 100%;
+        justify-content: start;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      }
+      .marseille_titre h2{
+          margin-top: 0!important;
       }
       .hotel_marseille_desktop{
           border: 2px solid khaki;
       }
       .container_bis{
-        width: 25%;
         border: 2px solid fuchsia;
         display: grid!important;
-        grid-template-columns: 300px;
+        grid-template-columns: 400px;
         grid-template-rows: 160px 160px 160px; 
       }
       .marseille_hotel{
           width: 100%!important;
+          height: 22vh!important;
       }
+      .marseille_image{
+          height: 13vh!important;
+      }
+      .marseille_image img{
+        height: 12vh!important;
+    }
       .marseille_texte{
           height: 0!important;
-          margin-left: 0!important;
-          margin-top: 0!important;
+          margin-left: .5rem!important;
+          margin-top: .5rem!important;
       }
       .marseille_texte p{
           margin: 0!important;
       }
+      .hotel{
+          width: 80%!important;
+          height: 17vh!important;
+      }
+      .hotel_image{
+          width: 50%!important;
+          height: 16vh!important;
+      }
       .hotel_image img{
-          width: 100%;
-        height: 18.5vh;
+        width: 100%;
+        height: 15vh!important;
+        border-radius: 1rem 0rem 0rem 1rem;
+    }
+    .hotel_texte{
+        height: 15vh;
     }
     .hotel_texte p{
         margin: 0;
+        margin-bottom: 1rem;
     }
     .populaires{
         display: none;
@@ -197,6 +226,14 @@
     #activites_marseille{
         display: none;
     }
+    .activites_desktop{
+        border: 2px solid indigo;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px;
+        grid-template-rows: auto;
+        grid-auto-flow: column;
+        justify-content: center;
+    }  
 
 
 }
