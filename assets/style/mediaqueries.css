@@ -1,11 +1,17 @@
     /* TABLETTE*/
 @media screen and (min-width: 481px){
+
+    /* LE HEADER */
     .nav{
         display: none;
     }
+
+    /* LE MAIN */
     .titre br{
         display: none;
     }
+
+    /* LES FILTRES */
     .filtre{
         width: 69%;
     }
@@ -13,6 +19,8 @@
         margin: 1rem;
         display: none;
     }
+
+    /* HEBERGEMENT MARSEILLE */
     .container{
         display: none;
     }
@@ -23,6 +31,8 @@
     .marseille_texte{
         height: 9vh!important;
     }
+
+    /* ACTIVITES MARSEILLE */
     #activites_marseille{
         display: flex;
         justify-content: center;
@@ -30,6 +40,11 @@
     .titre{
         text-align: center;
     }
+    #activites_marseille{
+        display: block;
+    }
+    
+    /* INFORMATION */
     .information{
         display: ruby!important;
     }
@@ -42,6 +57,8 @@
     .information_emoticone i{
         height: 2vh!important;
     }
+
+    /* HOTELS POPULAIRES */
     .container_bis{
         display: none;
     }
@@ -51,17 +68,24 @@
     #activites_marseille{
         display: block;
     }
+
+    /* FOOTER */
     footer{
         display: flex;
         justify-content: space-around;
     }
 
 }
+
     /* ORDINATEUR*/
 @media screen and (min-width: 1025px){
+
+    /* HEADER */
     .logo{
         margin: 1rem;
     }
+
+    /* MAIN */
     .titre{
         text-align: start;
         margin-left: 2rem!important;
@@ -69,6 +93,8 @@
     .titre br{
         display: none;
     }
+
+    /* RECHERCHER */
     .rechercher{
         margin-left: 1.2rem !important;
     }
@@ -95,6 +121,8 @@
     .emoticone_filtre_background{
         height: 5vh!important;
     }
+
+    /* INFORMATION */
     .information_emoticone i{
         height: 3.5vh!important;
     }
@@ -102,6 +130,8 @@
         display: flex!important;
         margin: 0.5rem;
     }
+
+    /* FILTRES */
     .filtres{
         display: none;
     }
@@ -133,10 +163,14 @@
     .filtre_desktop h3{
         margin-right: 1rem;
     }
+
+    /* INFORMATION */
     .information_desktop{
         align-items: baseline;
         margin-left: 2rem!important;
     }
+
+    /* SECTION HOTEL MARSEILLE + LES PLUS POPULAIRES */
     .grid1{
         display: flex;
         justify-content: space-around;
@@ -153,64 +187,64 @@
         row-gap: 15px;
         align-content: start;
         background-color: #F2F2F2;
-      }
-      .populaires_emoticone{
+    }
+    .populaires_emoticone{
           align-items: start!important;
           margin-top: 2rem;
-      }
-      .populaires_emoticone h2{
+    }
+    .populaires_emoticone h2{
         margin-bottom: 0;
         margin-top: 0;
     }
-      .marseille_titre{
+    .marseille_titre{
         justify-content: start;
         display: grid;
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 1;
-      }
-      .marseille_titre h2{
+    }
+    .marseille_titre h2{
           margin-top: 0!important;
-      }
-      .hotel_marseille_desktop{
+    }
+    .hotel_marseille_desktop{
           border: 2px solid khaki;
-      }
-      .container_bis{
+    }
+    .container_bis{
         border-radius: 1rem;
         border: 2px solid fuchsia;
         display: grid!important;
         grid-template-columns: 400px;
         grid-template-rows: 160px 160px 160px; 
         background-color: #F2F2F2;
-      }
-      .marseille_hotel{
+    }
+    .marseille_hotel{
           width: 100%!important;
           height: 22vh!important;
-      }
-      .marseille_image{
+    }
+    .marseille_image{
           height: 13vh!important;
-      }
-      .marseille_image img{
+    }
+    .marseille_image img{
         height: 12vh!important;
     }
-      .marseille_texte{
+    .marseille_texte{
           height: 0!important;
           margin-left: .5rem!important;
           margin-top: .5rem!important;
-      }
-      .marseille_texte p{
+    }
+    .marseille_texte p{
           margin: 0!important;
-      }
-      .hotel{
+    }
+    .hotel{
           width: 80%!important;
           height: 17vh!important;
-      }
-      .hotel_image{
+    }
+    .hotel_image{
           width: 50%!important;
           height: 16vh!important;
-      }
-      .hotel_image img{
+    }
+    .hotel_image img{
         width: 100%;
         height: 15vh!important;
         border-radius: 1rem 0rem 0rem 1rem;
@@ -251,6 +285,8 @@
         display: flex;
         justify-content: space-around;
     }
+
+    /* ACTIVITES MARSEILLE */
     .un{
         border: 2px solid fuchsia;
         width: 18%;
@@ -330,6 +366,5 @@
     .activites_texte h3{
         margin-top: .2rem;
     }
-
 
 }
