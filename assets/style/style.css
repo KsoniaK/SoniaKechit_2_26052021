@@ -85,14 +85,15 @@ hr{
 }
 
 /* ICI SECTION RECHERCHE */
-.rechercher button{
-    border: 1px solid lightgray;
-    border-radius: 0.5rem;
-    background-color: white;
+.bouton{
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+}
+.rechercher button{
+    border: 1px solid lightgray;
+    border-radius: 0 0.5rem 0.5rem 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 0;
 }
@@ -100,8 +101,6 @@ hr{
     margin-top: 2rem;
 }
 .rechercher input{
-    height: 2.5rem;
-    width: 75%;
     border: none;
     font-size: 16px;
 }
@@ -404,6 +403,9 @@ footer a{
             margin: 1rem;
             display: none;
         }
+        .emoticone_filtre_background{
+            height: 10vh;
+        }
     
         /* HEBERGEMENT MARSEILLE */
         .container{
@@ -484,11 +486,11 @@ footer a{
         }
     
         /* RECHERCHER */
+        .bouton{
+            justify-content: start;
+        }
         .rechercher{
             margin-left: 1.2rem;
-        }
-        .rechercher button{
-            margin-left: 1rem;
         }
         .div_hr{
             display: none;
@@ -552,6 +554,9 @@ footer a{
         .filtre_desktop h3{
             margin-right: 1rem;
         }
+        .emoticone_filtre:hover{
+            opacity: 0.5;
+        }
     
         /* INFORMATION */
         .information_desktop{
@@ -570,7 +575,7 @@ footer a{
             /* height: 80%; */
             border: 2px solid firebrick;
             display: grid;
-            grid-template-columns: 260px 260px 260px;
+            grid-template-columns: 30% 30% 30%;
             grid-template-rows: 13px 230px; 
             column-gap: 30px;
             row-gap: 15px;
@@ -603,13 +608,13 @@ footer a{
             border-radius: 1rem;
             border: 2px solid fuchsia;
             display: grid;
-            grid-template-columns: 400px;
+            grid-template-columns: 100%;
             grid-template-rows: 160px 160px 160px; 
             background-color: #F2F2F2;
         }
         .marseille_hotel{
               width: 100%;
-              height: 22vh;
+              height: 80%;
         }
         .marseille_image{
               height: 13vh;
@@ -618,28 +623,28 @@ footer a{
             height: 12vh;
         }
         .marseille_texte{
-              height: 0;
-              margin-left: .5rem;
-              margin-top: .5rem;
+              border: 2px solid black;
+              height: 60%;
+              padding-top: .5rem;
         }
         .marseille_texte p{
               margin: 0;
         }
         .hotel{
               width: 80%;
-              height: 16.5vh;
+              height: 90%;
         }
         .hotel_image{
               width: 50%;
-              height: 16vh;
+              height: 97%;
         }
         .hotel_image img{
             width: 100%;
-            height: 14.5vh;
+            height: 15vh;
             border-radius: 1rem 0rem 0rem 1rem;
         }
         .hotel_texte{
-            height: 15vh;
+            height: 100%;
         }
         .hotel_texte p{
             margin: 0;
@@ -684,10 +689,10 @@ footer a{
             border: 2px solid lightgreen;
             width: 18%;
         }
-        .activites_marseille_image_texte_grand{
+        /* .activites_marseille_image_texte_grand{
             height: 50vh;
             width: 18%;
-        }
+        } */
         .activites_marseille_image_texte_grand{
             border: 2px solid purple;
             margin: 1.5rem;
@@ -752,6 +757,9 @@ footer a{
         }
         .activites_texte h3{
             margin-top: .2rem;
+        }
+        .a_m{
+            width: 20%;
         }
     
     }
