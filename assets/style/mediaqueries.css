@@ -146,6 +146,9 @@ hr{
 }
 
 /* ICI SECTION FILTRES */
+.filtres1{
+    display: flex;
+}
 .filtres{
     margin: 1rem;
 }
@@ -155,7 +158,7 @@ hr{
 .filtre1{
     border: 1px solid lightgray;
     height: 2.5rem;
-    margin: 0.5rem;
+    margin-top: 0.5rem;
     border-radius: 2rem;
     background-color: white;
     display: flex;
@@ -426,6 +429,9 @@ footer a{
         }
     
         /* LES FILTRES */
+        .filtres1{
+            display: block;
+        }
         .filtre{
             width: 69%;
         }
