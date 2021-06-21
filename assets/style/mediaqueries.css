@@ -138,15 +138,17 @@ hr{
     display: flex;
 }
 .filtres{
-    margin: 1rem;
+    margin: .5rem;
 }
 .filtres h3{
     margin-top: 2rem;
+    margin-left: .5rem;
 }
 .filtre1{
     border: 1px solid lightgray;
     height: 2.5rem;
     margin-top: 0.5rem;
+    margin-right: .2rem;
     border-radius: 2rem;
     background-color: white;
     display: flex;
