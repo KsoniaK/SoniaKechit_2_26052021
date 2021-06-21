@@ -8,14 +8,9 @@
 }
 
 /* LE RESET */
-
 *{
     box-sizing: border-box;
 }
-/* html {
-    font-size:62.5%;
-    
-} */
 body{
     background-color: olivedrab;
     font-size: 1.6rem;
@@ -51,26 +46,6 @@ header{
 /* -------------------------------------------------------------------------- */
 
 /* ICI LE MAIN */
-.essai{
-background-color: #DEEBFF;
-width: 2.5rem;
-height: 2.5rem;
-border-radius: 2rem;
-align-content: end;
-align-items: center;
-display: flex;
-justify-content: center;
-}
-
-.essai i{
-    color: #0065FC;
-}
-
-
-
-
-
-
 main{
     border: 2px solid red;
 }
@@ -146,6 +121,19 @@ hr{
 }
 
 /* ICI SECTION FILTRES */
+.essai{
+    background-color: #DEEBFF;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    align-content: end;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+    .essai i{
+        color: #0065FC;
+    }
 .filtres1{
     display: flex;
 }
@@ -253,7 +241,6 @@ hr{
     margin: 1.5rem;
     background-color: white;
     border-radius: 1rem;
-    /* height: 20vh; */
     width: 87%;
     align-items: center;
     box-shadow: 5px 3px 25px lightgray;
@@ -294,7 +281,6 @@ span i{
     color: #F2F2F2
 }
 
-
 /* ICI SECTION HOTELS MARSEILLE */
 #marseille{
     border: 2px solid green;
@@ -327,7 +313,6 @@ span i{
 }
 .marseille_texte{
     font-size: 14px;
-    /* height: 11vh; */
     color: black;
     padding-left: 1rem;
 }
@@ -343,6 +328,9 @@ span i{
 }
 .a_p{
     margin: 1rem;
+}
+.grid1{
+    display: none;
 }
 
 /* ICI SECTION ACTIVITES MARSEILLE */
@@ -386,9 +374,6 @@ a{
 .activites_marseille_desktop{
     display: none;
 }
-/* .afficher_plus{
-    display: none;
-} */
 /* -------------------------------------------------------------------------- */
 
 /* ICI LE FOOTER */
@@ -409,7 +394,6 @@ footer{
 footer a{
     color: black;
 }
-
 
   /* TABLETTE*/
     @media screen and (min-width: 481px){
@@ -451,10 +435,7 @@ footer a{
             display: flex;
             justify-content: center;
         }
-        /* .marseille_texte{
-            height: 9vh;
-        } */
-    
+  
         /* ACTIVITES MARSEILLE */
         #activites_marseille{
             display: flex;
@@ -476,9 +457,6 @@ footer a{
         }
         .information_emoticone p{
             width: 100%;
-        }
-        .information_emoticone i{
-            height: 2%;
         }
     
         /* HOTELS POPULAIRES */
