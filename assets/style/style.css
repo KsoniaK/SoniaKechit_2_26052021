@@ -102,7 +102,7 @@
     }
 
     /* SECTION HOTEL MARSEILLE + LES PLUS POPULAIRES */
-    .grid1{
+    .marseille_populaires_desktop{
         display: flex;
         justify-content: space-around;
         border: 2px solid khaki;
@@ -132,7 +132,7 @@
         width: 60%;
         justify-content: space-around;
     }
-    .flex{
+    .images_texte{
         border: 2px solid firebrick;
         display: flex;
         flex-wrap: wrap;

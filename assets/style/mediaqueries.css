@@ -121,7 +121,7 @@ hr{
 }
 
 /* ICI SECTION FILTRES */
-.essai{
+.conteneur_filtre{
     background-color: #DEEBFF;
     width: 2.5rem;
     height: 2.5rem;
@@ -131,7 +131,7 @@ hr{
     display: flex;
     justify-content: center;
     }
-    .essai i{
+    .conteneur_filtre i{
         color: #0065FC;
     }
 .filtres1{
@@ -331,7 +331,7 @@ span i{
 .a_p{
     margin: 1rem;
 }
-.grid1{
+.marseille_populaires_desktop{
     display: none;
 }
 
