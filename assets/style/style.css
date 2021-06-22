@@ -102,12 +102,12 @@
     }
 
     /* SECTION HOTEL MARSEILLE + LES PLUS POPULAIRES */
-    .grid1{
+    .hm_hp_d{
         display: flex;
         justify-content: space-around;
         border: 2px solid khaki;
     }
-    .testtt{
+    .hm_d{
         background-color: #F2F2F2;
         border: 2px solid lawngreen;
         width: 65%;
@@ -132,7 +132,7 @@
         width: 60%;
         justify-content: space-around;
     }
-    .flex{
+    .hm{
         border: 2px solid firebrick;
         display: flex;
         flex-wrap: wrap;
@@ -157,7 +157,7 @@
     .hotel_marseille_desktop{
           border: 2px solid khaki;
     }
-    .container_bis{
+    .grid{
         border-radius: 1rem;
         border: 2px solid fuchsia;
         display: grid;

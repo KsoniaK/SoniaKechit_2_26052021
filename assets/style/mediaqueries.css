@@ -121,7 +121,7 @@ hr{
 }
 
 /* ICI SECTION FILTRES */
-.essai{
+.contient_emoticone{
     background-color: #DEEBFF;
     width: 2.5rem;
     height: 2.5rem;
@@ -131,7 +131,7 @@ hr{
     display: flex;
     justify-content: center;
     }
-    .essai i{
+    .contient_emoticone i{
         color: #0065FC;
     }
 .filtres1{
@@ -222,7 +222,7 @@ hr{
 }
 
 /* ICI SECTION HOTELS POPULAIRES */
-.container_bis{
+.grid{
     display: none;
 }
 .populaires{
@@ -331,7 +331,7 @@ span i{
 .a_p{
     margin: 1rem;
 }
-.grid1{
+.hm_hp_d{
     display: none;
 }
 
@@ -462,7 +462,7 @@ footer a{
         }
     
         /* HOTELS POPULAIRES */
-        .container_bis{
+        .grid{
             display: none;
         }
         .emoticone_filtre_background{
