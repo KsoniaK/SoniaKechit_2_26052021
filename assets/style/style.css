@@ -3,10 +3,6 @@
  /* ORDINATEUR*/
  @media (min-width: 1025px){
 
-    body{
-        background-color: red;
-    }
-
     /* HEADER */
     .logo{
         margin: 1rem;
@@ -47,6 +43,7 @@
     }
     .rechercher button{
         width: 9%;
+        border: none;
     }
     .div_hr{
         display: none;
@@ -58,7 +55,6 @@
         display: none;
     }
     .nav{
-        border: 2px solid green;
         display: flex;
         width: 30%;
         display: flex;
@@ -87,7 +83,6 @@
         margin-left: 2rem;
     }
     .filtre_d{
-        border: 1px solid lightgray;
         width: 69%;
         height: 2.5rem;
         margin: 0.5rem;
@@ -124,35 +119,29 @@
     .hm_hp_d{
         display: flex;
         justify-content: space-around;
-        border: 2px solid khaki;
     }
     .hm_d{
         background-color: #F2F2F2;
-        border: 2px solid lawngreen;
         width: 65%;
         border-radius: 1rem;
     }
     .container{
         border-radius: 1rem;
         padding: 2rem;
-        border: 2px solid firebrick;
         align-content: start;
         background-color: #F2F2F2;
     }
     .hotels_populaires_marseille_desktop{
         background-color: midnightblue;
-        border: 2px solid palevioletred;
         display: flex;
     }
     .test{
         background-color: violet;
-        border: 2px solid lawngreen;
         flex-wrap: wrap;
         width: 60%;
         justify-content: space-around;
     }
     .hm{
-        border: 2px solid firebrick;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -178,7 +167,6 @@
     }
     .grid{
         border-radius: 1rem;
-        border: 2px solid fuchsia;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 25% 25% 25%;
@@ -187,16 +175,12 @@
     }
     .marseille_hotel{
           width: 29%;
-          height: 80%;
     }
     .marseille_image{
           height: 13vh;
     }
     .marseille_image img{
         height: 12vh;
-    }
-    .marseille_texte{
-          border: 2px solid black;
     }
     .marseille_texte p{
           margin: 0;
@@ -206,11 +190,6 @@
     }
     .populaires_mm_d{
         background-color: lightseagreen;
-        border: 2px solid olivedrab;
-    }
-    .hotels_mm_d{
-        background-color: lightcoral;
-        border: 2px solid khaki;
     }
     .hotel{
           width: 80%;
@@ -245,7 +224,6 @@
         display: grid;
     }
     .activites_desktop{
-        border: 2px solid indigo;
         display: grid;
         grid-template-columns: 200px 200px 200px 200px 200px 200px;
         grid-template-rows: auto;
@@ -257,22 +235,15 @@
         margin-left: 2rem;
     }
     .activites_marseille_d{
-        border: 2px solid peru;
         display: flex;
         justify-content: space-around;
     }
 
     /* ACTIVITES MARSEILLE */
-    .un{
-        border: 2px solid fuchsia;
-        width: 18%;
-    }
-    .deux{
-        border: 2px solid lightgreen;
+    .un, .deux{
         width: 18%;
     }
     .activites_marseille_image_texte_grand{
-        border: 2px solid purple;
         margin: 1.5rem;
         background-color: white;
         border-radius: 1rem;
@@ -287,7 +258,6 @@
     }
     .activites_marseille_image_texte_moyen{
         margin-top: 1.5rem;
-        border: 2px solid purple;
         background-color: white;
         border-radius: 1rem;
         align-items: center;
@@ -300,7 +270,6 @@
         width: 100%;
     }
     .activites_marseille_image_texte_petit{
-        border: 2px solid purple;
         margin: 1.5rem;
         background-color: white;
         border-radius: 1rem;
@@ -310,7 +279,6 @@
         box-shadow: 5px 3px 25px lightgray;
     }
     .activites_image_g{
-        border: 2px solid peru;
         border-radius: 1rem 1rem 0rem 0rem;
         width: 100%;
         height: 42vh;

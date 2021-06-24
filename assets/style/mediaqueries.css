@@ -11,7 +11,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: olivedrab;
     font-size: 1.6rem;
     margin: 0;
     font-family: "Raleway", serif;
@@ -19,20 +18,15 @@ body{
     font-size: 16px;
 }
 
-/* -------------------------------------------------------------------------- */
-
 /* ICI LE HEADER */
 header{
-    border: 2px solid blue;
     display: flex;
     justify-content: space-between;
 }
 .logo{
-    border: 2px solid yellow;
     padding: 1rem;
 }
 .inscription{
-    border: 2px solid firebrick;
     padding: 1rem;
 }
 .inscription p{
@@ -42,24 +36,17 @@ header{
     display: none;
 }
 
-/* -------------------------------------------------------------------------- */
 
 /* ICI LE MAIN */
-main{
-    border: 2px solid red;
-}
 .navigation{
-    border: 2px solid cadetblue;
     display: flex;
     text-align: center;
 }
 .hebergements{
-    border: 2px solid navy;
     width: 50%;
     color: #0065FC;
 }
 .activites{
-    border: 2px solid rebeccapurple;
     width: 50%;
     color: #0065FC;
 }
@@ -71,9 +58,11 @@ hr{
 }
 .premier{
     border: 1.5px solid #0065FC;
+    background-color: #0065FC;
 }
 .second{
     border: 1.5px solid #F2F2F2;
+    background-color: #F2F2F2;
 }
 .titre{
     margin: 1rem;
@@ -85,7 +74,6 @@ hr{
     justify-content: center;
 }
 .rechercher button{
-    border: 1px solid lightgray;
     border-radius: 0 0.5rem 0.5rem 0;
     display: flex;
     justify-content: center;
@@ -156,23 +144,8 @@ hr{
     display: flex;
     align-items: center;
     padding: 0;
-    /* position: relative; */
 }
-/* .filtre1 i{
-    position: absolute;
-    color: #0065FC;
-}
-.filtre1::before{
-    content: "";
-    display: inline-block;
-    background-color: #DEEBFF;
-    height: 40px;
-    width: 40px;
-    border-radius: 2rem;
-    position: relative;
-} */
 .filtre{
-    border: 1px solid lightgray;
     height: 2.5rem;
     margin: 0.5rem;
     border-radius: 1rem;
@@ -196,7 +169,7 @@ hr{
     color: #0065FC;
     background-color: #DEEBFF;
     width: 2.5rem;
-    height: 6vh;
+    height: 2.5rem;
     border-radius: 2rem;
     display: flex;
     justify-content: center;
@@ -226,7 +199,6 @@ hr{
     margin-top: 1.5rem;
     margin-right: 0.5rem;
     color: #0065FC;
-    border: 1px solid lightgray;
     width: 1rem;
     border-radius: 1rem;
 }
@@ -242,8 +214,8 @@ hr{
     display: none;
 }
 .populaires{
-    border: 2px solid lawngreen;
     background-color: #F2F2F2;
+    padding: 1rem;
 }
 .populaires_emoticone{
     display: flex;
@@ -254,7 +226,6 @@ hr{
     font-size: 1.5rem;
 }
 .hotel{
-    border: 2px solid hotpink;
     display: flex;
     margin: 1.5rem;
     background-color: white;
@@ -270,7 +241,6 @@ hr{
     border-radius: 1rem 0rem 0rem 1rem;
 }
 .hotel_image{
-    border: 2px solid maroon;
     border-radius: 1rem 0rem 0rem 1rem;
     width: 45%;
     height: 20vh;
@@ -280,7 +250,6 @@ hr{
     height: 100%;
 }
 .hotel_texte{
-    border: 2px solid lightcoral;
     margin: 0.5rem;
     width: 50%;
     font-size: 14px;
@@ -300,14 +269,10 @@ span i{
 }
 
 /* ICI SECTION HOTELS MARSEILLE */
-#marseille{
-    border: 2px solid green;
-}
 .marseille_titre h2{
     margin: 1rem;
 }
 .marseille_hotel{
-    border: 2px solid hotpink;
     margin: 1rem!important;
     background-color: white;
     border-radius: 1rem;
@@ -317,7 +282,6 @@ span i{
     box-shadow: 5px 3px 25px lightgray;
 }
 .marseille_image{
-    border: 2px solid maroon;
     border-radius: 1rem 1rem 0rem 0rem;
     width: 100%;
     height: 16vh;
@@ -353,10 +317,9 @@ span i{
 
 /* ICI SECTION ACTIVITES MARSEILLE */
 #activites_marseille{
-    margin: 1rem;
+    padding: 1rem;
 }
 .activites_marseille_image_texte{
-    border: 2px solid purple;
     margin: 1.5rem;
     background-color: white;
     border-radius: 1rem;
@@ -366,7 +329,6 @@ span i{
     box-shadow: 5px 3px 25px lightgray;
 }
 .activites_image{
-    border: 2px solid peru;
     border-radius: 1rem 1rem 0rem 0rem;
     width: 100%;
     height: 16vh;
@@ -379,11 +341,11 @@ span i{
     object-fit: cover;
 }
 .activites_texte{
-    border: 2px solid lightseagreen;
     font-size: 14px;
-    /* height: 7vh; */
     color: black;
     padding-left: 1rem;
+    margin-top: 0;
+    padding: .5rem;
 }
 a{
     text-decoration: none;
@@ -393,22 +355,11 @@ a{
     display: none;
 }
 
-/* -------------------------------------------------------------------------- */
 
 /* ICI LE FOOTER */
 footer{
-    border: 2px solid green;
     background-color: #F2F2F2;
     padding: 1rem;
-}
-.a_propos{
-    border: 2px solid darkcyan;
-}
-.nos_hebergements{
-    border: 2px solid darkgray;
-}
-.assistance{
-    border: 2px solid darkorange;
 }
 footer a{
     color: black;
@@ -417,10 +368,6 @@ footer a{
   /* TABLETTE*/
     @media screen and (min-width: 481px){
 
-        body{
-            background-color: palevioletred;
-        }
-    
         /* LE HEADER */
         .nav{
             display: none;
@@ -446,11 +393,7 @@ footer a{
             display: flex;
             flex-wrap: wrap;
         }
-        .emoticone_filtre_background{
-            height: 10vh;
-        }
         .filtre_d{
-            border: 1px solid lightgray;
             width: 69%;
             height: 2.5rem;
             margin: 0.5rem;
@@ -520,13 +463,10 @@ footer a{
     
         /* HOTELS POPULAIRES */
         .hotel{
-            width: 50%;
+            width: 55%;
         }
         .grid{
             display: none;
-        }
-        .emoticone_filtre_background{
-            height: 4vh;
         }
         #activites_marseille{
             display: block;
@@ -534,7 +474,7 @@ footer a{
 
         /* HOTELS MARSEILLE */
         .marseille_hotel{
-            width: 50%;
+            width: 55%;
             margin-bottom: 1rem!important;
             margin-left: auto!important;
             margin-right: auto!important;
@@ -542,11 +482,15 @@ footer a{
 
         /* ACTIVITES MARSEILLE */
         .activites_marseille_image_texte{
-            width: 50%;
+            width: 55%;
         }
         #activites_marseille h2{
             justify-content: center;
             display: flex;
+        }
+        .activites_texte h3{
+            margin-top: 0;
+            padding: .5rem;
         }
 
         /* FOOTER */
