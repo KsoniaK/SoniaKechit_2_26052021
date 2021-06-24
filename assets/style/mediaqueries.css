@@ -1,4 +1,3 @@
-     
 /* SMARTPHONE */
 /* SHIFT + ALT + A = COMMENTAIRE */
 
@@ -119,6 +118,9 @@ hr{
     justify-content: center;
     align-items: center;
 }
+.emoticone_rechercher2_d{
+    display: none!important;
+}
 
 /* ICI SECTION FILTRES */
 .contient_emoticone{
@@ -154,7 +156,21 @@ hr{
     display: flex;
     align-items: center;
     padding: 0;
+    /* position: relative; */
 }
+/* .filtre1 i{
+    position: absolute;
+    color: #0065FC;
+}
+.filtre1::before{
+    content: "";
+    display: inline-block;
+    background-color: #DEEBFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 2rem;
+    position: relative;
+} */
 .filtre{
     border: 1px solid lightgray;
     height: 2.5rem;
@@ -376,6 +392,7 @@ a{
 .activites_marseille_desktop{
     display: none;
 }
+
 /* -------------------------------------------------------------------------- */
 
 /* ICI LE FOOTER */
@@ -413,7 +430,10 @@ footer a{
         .titre br{
             display: none;
         }
-    
+        /* RECHERCHER */
+        .emoticone_rechercher2_d{
+            display: none!important;
+        }
         /* LES FILTRES */
         .filtres{
             display: none;
@@ -499,6 +519,9 @@ footer a{
         }
     
         /* HOTELS POPULAIRES */
+        .hotel{
+            width: 50%;
+        }
         .grid{
             display: none;
         }
@@ -508,7 +531,24 @@ footer a{
         #activites_marseille{
             display: block;
         }
-    
+
+        /* HOTELS MARSEILLE */
+        .marseille_hotel{
+            width: 50%;
+            margin-bottom: 1rem!important;
+            margin-left: auto!important;
+            margin-right: auto!important;
+        }
+
+        /* ACTIVITES MARSEILLE */
+        .activites_marseille_image_texte{
+            width: 50%;
+        }
+        #activites_marseille h2{
+            justify-content: center;
+            display: flex;
+        }
+
         /* FOOTER */
         footer{
             display: flex;
