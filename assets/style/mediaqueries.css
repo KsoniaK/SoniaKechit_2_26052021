@@ -57,11 +57,11 @@ hr{
     width: 50%;
 }
 .premier{
-    border: 1.5px solid #0065FC;
+    border: 1px solid #0065FC;
     background-color: #0065FC;
 }
 .second{
-    border: 1.5px solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
 }
 .titre{
@@ -227,10 +227,9 @@ hr{
 }
 .hotel{
     display: flex;
-    margin: 1.5rem;
+    margin: 1.8rem;
     background-color: white;
     border-radius: 1rem;
-    /* width: 87%; */
     align-items: center;
     box-shadow: 5px 3px 25px lightgray;
     margin-left: auto;
@@ -305,9 +304,6 @@ span i{
     margin: 0.2rem;
     margin-left: 0;
 }
-/* .marseille_texte h3{
-    margin: 0rem;
-} */
 .afficher_plus{
     color: black;
 }
@@ -323,7 +319,6 @@ span i{
     padding: 1rem;
 }
 .activites_marseille_image_texte{
-    /* margin: 1.5rem; */
     background-color: white;
     border-radius: 1rem;
     align-items: center;
@@ -425,19 +420,18 @@ footer a{
         .emoticone_filtre:hover{
             opacity: 0.5;
         }
-                /* INFORMATION */
-                .information{
-                    display: ruby;
-                }
-                .information_desktop{
-                    display: ruby;
-                    margin: 1rem;
-                }
+        /* INFORMATION */
+        .information{
+            display: ruby;
+        }
+        .information_desktop{
+            display: ruby;
+            margin: 1rem;
+        }
             
-                .information_emoticone p{
-                    width: 100%;
-                }
-    
+        .information_emoticone p{
+            width: 100%;
+        }
         /* HEBERGEMENT MARSEILLE */
         .container{
             display: none;
@@ -498,7 +492,6 @@ footer a{
             margin-top: 0;
             padding: .5rem;
         }
-
         /* FOOTER */
         footer{
             display: flex;
