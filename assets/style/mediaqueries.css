@@ -230,7 +230,7 @@ hr{
     margin: 1.5rem;
     background-color: white;
     border-radius: 1rem;
-    width: 87%;
+    /* width: 87%; */
     align-items: center;
     box-shadow: 5px 3px 25px lightgray;
     margin-left: auto;
@@ -243,14 +243,14 @@ hr{
 .hotel_image{
     border-radius: 1rem 0rem 0rem 1rem;
     width: 45%;
-    height: 20vh;
+    height: 23vh;
     padding: .2rem;
 }
 .hotel_image img{
     height: 100%;
 }
 .hotel_texte{
-    margin: 0.5rem;
+    padding: 0.5rem;
     width: 50%;
     font-size: 14px;
     color: black;
@@ -296,15 +296,18 @@ span i{
 .marseille_texte{
     font-size: 14px;
     color: black;
-    padding-left: 1rem;
-}
-.marseille_texte p{
-    margin: 0.5rem;
-    margin-left: 0;
+    padding: .5rem;
 }
 .marseille_texte h3{
-    margin: 0rem;
+    margin: 0;
 }
+.marseille_texte p{
+    margin: 0.2rem;
+    margin-left: 0;
+}
+/* .marseille_texte h3{
+    margin: 0rem;
+} */
 .afficher_plus{
     color: black;
 }
@@ -320,7 +323,7 @@ span i{
     padding: 1rem;
 }
 .activites_marseille_image_texte{
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
     background-color: white;
     border-radius: 1rem;
     align-items: center;
@@ -331,11 +334,11 @@ span i{
 .activites_image{
     border-radius: 1rem 1rem 0rem 0rem;
     width: 100%;
-    height: 16vh;
+    height: 21vh;
     padding: .2rem;
 }
 .activites_image img{
-    height: 15vh;
+    height: 100%;
     width: 100%;
     border-radius: 1rem 1rem 0rem 0rem;
     object-fit: cover;
@@ -344,6 +347,9 @@ span i{
     font-size: 14px;
     color: black;
     padding-left: 1rem;
+    margin-top: 0;
+}
+.activites_texte h3{
     margin-top: 0;
     padding: .5rem;
 }
