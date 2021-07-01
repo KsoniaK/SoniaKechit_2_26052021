@@ -7,6 +7,10 @@
         margin: 1rem;
     }
     /* MAIN */
+    h1{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
     .titre{
         text-align: start;
         margin-left: 2rem;
@@ -14,8 +18,17 @@
     .titre br{
         display: none;
     }
+    .nav p{
+        display: flex;
+    }
     /* RECHERCHER */
-    .emoticone_rechercher2_d{
+    .emoticone_rechercher2 i{
+        display: none;
+    }
+    .emoticone_rechercher2 span{
+        display: flex;
+    }
+    /* .emoticone_rechercher2_d{
         color: white;
         background-color: #0065FC;
         width: 2.5rem;
@@ -24,29 +37,32 @@
         display: flex!important;
         justify-content: center;
         align-items: center;
-    }
-    .emoticone_rechercher2_d p{
+    } */
+    /* .emoticone_rechercher2_d p{
         font-size: 1.2em;
-    }
-    .emoticone_rechercher2{
+    } */
+    /* .emoticone_rechercher2{
         display: none!important;
-    }
+    } */
     .bouton{
-        justify-content: start;
-        margin: 1rem;
+        justify-content: start!important;
+        margin: 1rem!important;
+        height: 5vh;
     }
     .rechercher{
         margin-left: 1.2rem;
+        height: 5vh;
     }
     .rechercher button{
         width: 9%;
         border: none;
+        height: 5vh;
     }
     .premier{
         width: 10%;
         position: absolute;
         top: 0%;
-        left: 71%;
+        left: 73%;
     }
     .second{
         display: none;
@@ -54,7 +70,7 @@
     .inscription{
         display: none;
     }
-    .navigation{
+    .onglets{
         display: none;
     }
     .nav{
@@ -194,7 +210,7 @@
         background-color: lightseagreen;
     }
     .hotel{
-          width: 89%;
+          width: 84%;
           height: 90%;
     }
     .hotel_image{
@@ -208,6 +224,11 @@
     }
     .hotel_texte{
         height: 100%;
+        position: relative;
+    }
+    .hotel_texte span{
+        position: absolute;
+        bottom: 10px;
     }
     .populaires{
         display: none;

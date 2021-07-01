@@ -38,7 +38,10 @@ header{
 
 
 /* ICI LE MAIN */
-.navigation{
+h1{
+    font-size: 1.4rem;
+}
+.onglets{
     display: flex;
     text-align: center;
 }
@@ -79,13 +82,15 @@ hr{
     justify-content: center;
     align-items: center;
     padding: 0;
+    height: 5vh;
 }
-.rechercher{
+/* .rechercher{
     margin-top: 2rem;
-}
+} */
 .rechercher input{
-    border: none;
+    border: 1px solid #F2F2F2;
     font-size: 16px;
+    height: 5vh;
 }
 .emoticone_rechercher{
     background-color:  #F2F2F2;
@@ -95,6 +100,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 5vh;
 }
 .emoticone_rechercher2{
     color: white;
@@ -106,9 +112,12 @@ hr{
     justify-content: center;
     align-items: center;
 }
-.emoticone_rechercher2_d{
-    display: none!important;
+.emoticone_rechercher2 span{
+    display: none;
 }
+/* .emoticone_rechercher2_d{
+    display: none!important;
+} */
 
 /* ICI SECTION FILTRES */
 .contient_emoticone{
@@ -351,6 +360,14 @@ span i{
 a{
     text-decoration: none;
     color: #0065FC;
+}
+.nav a{
+    text-decoration: none;
+    color: #0065FC;
+    margin: 1.1rem;
+}
+.nav a:nth-child(2n), .activites a{
+    color: grey;
 }
 .activites_marseille_desktop{
     display: none;
