@@ -84,9 +84,6 @@ hr{
     padding: 0;
     height: 5vh;
 }
-/* .rechercher{
-    margin-top: 2rem;
-} */
 .rechercher input{
     border: 1px solid #F2F2F2;
     font-size: 16px;
@@ -115,10 +112,6 @@ hr{
 .emoticone_rechercher2 span{
     display: none;
 }
-/* .emoticone_rechercher2_d{
-    display: none!important;
-} */
-
 /* ICI SECTION FILTRES */
 .contient_emoticone{
     background-color: #DEEBFF;
@@ -130,9 +123,13 @@ hr{
     display: flex;
     justify-content: center;
     }
-    .contient_emoticone i{
-        color: #0065FC;
-    }
+.contient_emoticone i{
+    color: #0065FC;
+}
+.filtres_s{
+    display: flex;
+    flex-wrap: wrap;
+}
 .filtres1{
     display: flex;
 }
@@ -148,6 +145,7 @@ hr{
     height: 2.5rem;
     margin-top: 0.5rem;
     margin-right: .2rem;
+    margin-left: 1rem;
     border-radius: 2rem;
     background-color: white;
     display: flex;
@@ -162,10 +160,6 @@ hr{
     display: flex;
     align-items: center;
     padding: 0;
-}
-.filtre_desktop{
-    margin: 1rem;
-    display: none;
 }
 .filtre:hover{
     opacity: 0.5;
@@ -185,7 +179,7 @@ hr{
     align-items: center;
 }
 .p_filtre{
-    margin: 1rem;
+    padding: 1rem;
     font-weight: bold;
     font-size: 16px;
 }
@@ -195,17 +189,11 @@ hr{
     display: flex;
     margin: 0.5rem;
 }
-.information_desktop{
-    display: none;
-}
-.information_desktop{
-    display: none;
-}
 .information_emoticone{
     text-align: center;
 }
 .information_emoticone i{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-right: 0.5rem;
     color: #0065FC;
     width: 1rem;
@@ -228,21 +216,24 @@ hr{
 }
 .populaires_emoticone{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .populaires_emoticone i{
     font-size: 1.5rem;
 }
 .hotel{
+    height: 20%;
     display: flex;
-    margin: 1.8rem;
+    margin: 2rem;
     background-color: white;
     border-radius: 1rem;
     align-items: center;
     box-shadow: 5px 3px 25px lightgray;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+
 }
 .populaires img{
     width: 100%;
@@ -324,6 +315,10 @@ span i{
 }
 
 /* ICI SECTION ACTIVITES MARSEILLE */
+#activites_marseille a{
+    text-decoration: none;
+    color: black;
+}
 #activites_marseille{
     padding: 1rem;
 }
@@ -357,9 +352,10 @@ span i{
     margin-top: 0;
     padding: .5rem;
 }
-a{
+.hebergements_marseille_d a{
     text-decoration: none;
     color: #0065FC;
+    width: 33%;
 }
 .nav a{
     text-decoration: none;
@@ -369,9 +365,9 @@ a{
 .nav a:nth-child(2n), .activites a{
     color: grey;
 }
-.activites_marseille_desktop{
+/* .activites_marseille_desktop{
     display: none;
-}
+} */
 
 
 /* ICI LE FOOTER */
@@ -380,6 +376,7 @@ footer{
     padding: 1rem;
 }
 footer a{
+    text-decoration: none;
     color: black;
 }
 
@@ -390,7 +387,6 @@ footer a{
         .nav{
             display: none;
         }
-    
         /* LE MAIN */
         .titre br{
             display: none;
@@ -401,38 +397,16 @@ footer a{
         }
         /* LES FILTRES */
         .filtres{
-            display: none;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left: 1.5rem;
+        }
+        .filtres_s{
+            display: flex;
         }
         .filtre{
             width: 69%;
-        }
-        .filtre_desktop{
-            margin: 1rem;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .filtre_d{
-            width: 69%;
-            height: 2.5rem;
-            margin: 0.5rem;
-            border-radius: 1rem;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            padding: 0;
-        }
-        .filtre_desktop button{
-            border: 1px solid lightgray;
-            height: 2.5rem;
-            margin: 0.3rem;
-            border-radius: 2rem;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            padding: 0;
-        }
-        .filtre_desktop h3{
-            margin-right: 1rem;
         }
         .emoticone_filtre:hover{
             opacity: 0.5;
@@ -441,11 +415,6 @@ footer a{
         .information{
             display: ruby;
         }
-        .information_desktop{
-            display: ruby;
-            margin: 1rem;
-        }
-            
         .information_emoticone p{
             width: 100%;
         }
@@ -477,29 +446,15 @@ footer a{
         .information_emoticone p{
             width: 100%;
         }
-    
-        /* HOTELS POPULAIRES */
-        .hotel{
-            width: 55%;
-        }
         .grid{
             display: none;
         }
         #activites_marseille{
             display: block;
         }
-
-        /* HOTELS MARSEILLE */
-        .marseille_hotel{
-            width: 55%;
-            margin-bottom: 1rem!important;
-            margin-left: auto!important;
-            margin-right: auto!important;
-        }
-
         /* ACTIVITES MARSEILLE */
         .activites_marseille_image_texte{
-            width: 55%;
+            width: 100%;
         }
         #activites_marseille h2{
             justify-content: center;

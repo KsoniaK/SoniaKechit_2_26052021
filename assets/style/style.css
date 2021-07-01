@@ -4,7 +4,7 @@
  @media (min-width: 1025px){
     /* HEADER */
     .logo{
-        margin: 1rem;
+        margin: .5rem;
     }
     /* MAIN */
     h1{
@@ -13,7 +13,7 @@
     }
     .titre{
         text-align: start;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
     .titre br{
         display: none;
@@ -28,29 +28,13 @@
     .emoticone_rechercher2 span{
         display: flex;
     }
-    /* .emoticone_rechercher2_d{
-        color: white;
-        background-color: #0065FC;
-        width: 2.5rem;
-        height: 6vh;
-        border-radius: 0.5rem;
-        display: flex!important;
-        justify-content: center;
-        align-items: center;
-    } */
-    /* .emoticone_rechercher2_d p{
-        font-size: 1.2em;
-    } */
-    /* .emoticone_rechercher2{
-        display: none!important;
-    } */
     .bouton{
         justify-content: start!important;
         margin: 1rem!important;
         height: 5vh;
     }
     .rechercher{
-        margin-left: 1.2rem;
+        margin-left: .5rem;
         height: 5vh;
     }
     .rechercher button{
@@ -84,50 +68,49 @@
     .information_emoticone i{
         height: 2.5%;
     }
-    .information_desktop{
+    .filtres_s{
         display: flex;
-        margin: 0.5rem;
     }
-    /* FILTRES */
     .filtres{
-        display: none;
-    }
-    .filtre_desktop{
-        display: flex;
-        margin-left: 2rem;
-    }
-    .filtre_d{
-        width: 69%;
-        height: 2.5rem;
-        margin: 0.5rem;
-        border-radius: 1rem;
-        background-color: white;
         display: flex;
         align-items: center;
-        padding: 0;
+        flex-wrap: wrap;
+        margin-left: 1rem;
     }
-    .filtre_desktop button{
-        border: 1px solid lightgray;
-        height: 2.5rem;
-        margin: 0.5rem;
-        border-radius: 2rem;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        padding: 0;
-    }
-    .filtre_desktop h3{
-        margin-right: 1rem;
+    .filtre1{
+        margin-left: 1rem;
     }
     .emoticone_filtre:hover{
         opacity: 0.5;
     }
     /* INFORMATION */
-    .information_desktop{
-        align-items: baseline;
-        margin-left: 2rem;
+    .information{
+        margin-left: 1rem;
     }
     /* SECTION HOTEL MARSEILLE + LES PLUS POPULAIRES */
+    .hebergements_marseille_d{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hebergements_populaire_desktop{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #marseille{
+        background-color: #F2F2F2;
+        border-radius: 1rem;
+        width: 70%;
+        margin: 2rem;
+    }
+    .populaires{
+        border-radius: 1rem;
+        width: 30%;
+        margin: 2rem;
+    }
+    .populaires a{
+        text-decoration: none;
+        color: #0065FC;
+    }
     .hm_hp_d{
         height: 85vh;
         display: flex;
@@ -136,7 +119,6 @@
     .hm_d{
         background-color: #F2F2F2;
         width: 65%;
-        /* height: 80%; */
         border-radius: 1rem;
     }
     .container{
@@ -145,10 +127,10 @@
         align-content: start;
         background-color: #F2F2F2;
     }
-    .hotels_populaires_marseille_desktop{
+    /* .hotels_populaires_marseille_desktop{
         background-color: midnightblue;
         display: flex;
-    }
+    } */
     .test{
         background-color: violet;
         flex-wrap: wrap;
@@ -160,13 +142,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .populaires_emoticone{
-          align-items: start;
-          margin-top: 2rem;
-    }
     .populaires_emoticone h2{
         margin-bottom: 0;
         margin-top: 0;
+        padding: 1.5rem;
     }
     .marseille_titre{
         justify-content: start;
@@ -176,7 +155,7 @@
           margin-top: 0;
           margin-left: 2rem;
     }
-    .hotel_marseille_desktop{
+    /* .hotel_marseille_desktop{
           border: 2px solid khaki;
     }
     .grid{
@@ -186,10 +165,7 @@
         grid-template-rows: 25%;
         background-color: #F2F2F2;
         width: 32%;
-    }
-    .marseille_hotel{
-          width: 29%;
-    }
+    } */
     .marseille_image{
           height: 13vh;
     }
@@ -209,13 +185,9 @@
     .populaires_mm_d{
         background-color: lightseagreen;
     }
-    .hotel{
-          width: 84%;
-          height: 90%;
-    }
     .hotel_image{
           width: 50%;
-          height: 100%;
+          height: 98%;
     }
     .hotel_image img{
         width: 100%;
@@ -226,20 +198,14 @@
         height: 100%;
         position: relative;
     }
+    .hotel_texte p{
+        margin-top: .5rem;
+    }
     .hotel_texte span{
         position: absolute;
         bottom: 10px;
     }
-    .populaires{
-        display: none;
-    }
-    #marseille{
-        display: none;
-    }
-    #activites_marseille{
-        display: none;
-    }
-    .activites_marseille_desktop{
+    /* .activites_marseille_desktop{
         display: grid;
     }
     .activites_desktop{
@@ -248,7 +214,7 @@
         grid-template-rows: auto;
         grid-auto-flow: column;
         justify-content: center;
-    }
+    } */
     .activites_marseille_titre h2{
         margin: 1rem;
         margin-left: 2rem;
@@ -261,13 +227,20 @@
     .un, .deux{
         width: 18%;
     }
+    #activites_marseille{
+        display: flex;
+    }
+    #activites_marseille a{
+        text-decoration: none;
+        color: #0065FC;
+    }
     .activites_marseille_image_texte_grand{
         margin: 1.5rem;
         background-color: white;
         border-radius: 1rem;
         align-items: center;
-        margin-right: 0;
-        margin-left: 0;
+        /* margin-right: 0;
+        margin-left: 0; */
         box-shadow: 5px 3px 25px lightgray;
     }
     .activites_marseille_image_texte_moyen{
@@ -313,6 +286,10 @@
     }
     .a_m{
         width: 20%;
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
     }
 
 }
