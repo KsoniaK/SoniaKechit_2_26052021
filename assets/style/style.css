@@ -2,11 +2,29 @@
 
  /* ORDINATEUR*/
  @media (min-width: 1025px){
+
     /* HEADER */
     .logo{
         margin: 1rem;
     }
+    .nav p{
+        display: flex;
+    }
+    .inscription{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     /* MAIN */
+    .onglets{
+        display: none;
+    }
     h1{
         font-size: 1.3rem;
         font-weight: bold;
@@ -18,9 +36,16 @@
     .titre br{
         display: none;
     }
-    .nav p{
-        display: flex;
+    .premier{
+        width: 10%;
+        position: absolute;
+        top: 0%;
+        left: 73%;
     }
+    .second{
+        display: none;
+    }
+
     /* RECHERCHER */
     .emoticone_rechercher2 i{
         display: none;
@@ -41,52 +66,34 @@
         width: 9%;
         border: none;
         height: 5vh;
+        border-radius: 0rem 0.5rem 0.5rem 0rem;
     }
-    .premier{
-        width: 10%;
-        position: absolute;
-        top: 0%;
-        left: 73%;
-    }
-    .second{
-        display: none;
-    }
-    .inscription{
-        display: none;
-    }
-    .onglets{
-        display: none;
-    }
-    .nav{
-        display: flex;
-        width: 30%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    /* INFORMATION */
-    .information_emoticone i{
-        height: 2.5%;
-    }
-    .filtres_s{
-        display: flex;
-    }
+
+    /* FILTRES */
     .filtres{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         margin-left: 1.5rem;
     }
+    .filtres_s{
+        display: flex;
+    }
     .filtre1{
         margin-left: 1rem;
     }
-    .emoticone_filtre:hover{
+    .filtre1:hover{
         opacity: 0.5;
     }
+
     /* INFORMATION */
     .information{
         margin-left: 2rem;
     }
+    .information_emoticone i{
+        height: 2.5%;
+    }
+
     /* SECTION HOTEL MARSEILLE + LES PLUS POPULAIRES */
     .hebergements_marseille_d{
         display: flex;
@@ -114,33 +121,6 @@
         text-decoration: none;
         color: #0065FC;
     }
-    .hm_hp_d{
-        height: 85vh;
-        display: flex;
-        justify-content: space-around;
-    }
-    .hm_d{
-        background-color: #F2F2F2;
-        width: 65%;
-        border-radius: 1rem;
-    }
-    .container{
-        border-radius: 1rem;
-        padding: 2rem;
-        align-content: start;
-        background-color: #F2F2F2;
-    }
-    .test{
-        background-color: violet;
-        flex-wrap: wrap;
-        width: 60%;
-        justify-content: space-around;
-    }
-    .hm{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .populaires_emoticone h2{
         margin-bottom: 0;
         margin-top: 0;
@@ -167,12 +147,6 @@
         margin: 0.5rem;
         margin-left: 0;
     }
-    .afficher_plus{
-        padding: 2rem;
-    }
-    .populaires_mm_d{
-        background-color: lightseagreen;
-    }
     .hotel_image{
           width: 50%;
           height: 98%;
@@ -193,17 +167,11 @@
         position: absolute;
         bottom: 10px;
     }
-    .activites_marseille_titre h2{
-        margin: 1rem;
-        margin-left: 2rem;
-    }
-    .activites_marseille_d{
-        display: flex;
-        justify-content: space-around;
-    }
     .afficher_plus{
         text-decoration: none;
+        padding: 2rem;
     }
+
     /* ACTIVITES MARSEILLE */
     .titre_activites_marseille{
         text-align: start;
@@ -212,9 +180,8 @@
         margin-left: 2.5rem;
     }
     #activites_marseille a{
-        /* width: 100%; */
         height: 100%;
-        /* ---------------> le laisser pour mozilla, enlever pour chrome  */
+        /* le laisser pour mozilla, enlever pour chrome ----------------------------------------------------------*/
         /* width: 25%; */
         
     }
@@ -223,12 +190,7 @@
         box-shadow: 5px 3px 25px lightgrey;
     }
     .activites_marseille_image_texte{
-        /* height: 55vh; */
         width: 100%;
-        /* height: 80%; */
-    }
-    .un, .deux{
-        width: 18%;
     }
     #activites_marseille{
         display: flex;
@@ -240,21 +202,20 @@
     }
     .activites_marseille_image_texte_grand{
         width: 80%;
-        background-color: red;
         margin: 1.5rem;
-        /* background-color: white; */
+        background-color: white;
         border-radius: 1rem;
         align-items: center;
-        /* margin-right: 0;
-        margin-left: 0; */
         box-shadow: 5px 3px 25px lightgray;
     }
     .activites_marseille_image_texte_moyen{
-        width: 80%;  ---------------> le laisser pour chrome, enlever pour mozilla
-        height: 47%; ---------------> le laisser pour chrome, enlever pour mozilla
-        background-color: red;
+        /* le laisser pour chrome, enlever pour mozilla -------------------------------------------------------*/
+        width: 80%; 
+        /* le laisser pour chrome, enlever pour mozilla -------------------------------------------------------*/
+        height: 47%;
+
         margin-top: 1.5rem;
-        /* background-color: white; */
+        background-color: white;
         border-radius: 1rem;
         align-items: center;
         margin-right: auto;
@@ -262,21 +223,18 @@
         box-shadow: 5px 3px 25px lightgray;
     }
     .activites_marseille_image_texte_petit{
-        width: 80%; ---------------> le laisser pour chrome, enlever pour mozilla   
-        background-color: red;
+        /* le laisser pour chrome, enlever pour mozilla ------------------------------------------------------ */
+        width: 80%; 
+
         margin: 1.5rem;
-        /* background-color: white; */
+        background-color: white;
         border-radius: 1rem;
         align-items: center;
         margin-right: auto;
         margin-left: auto;
         box-shadow: 5px 3px 25px lightgray;
     }
-    .activites_image{
-        width: 100%;
-        height: 50vh;
-    }
-    .activites_image_un{
+    .activites_image, .activites_image_un{
         width: 100%;
         height: 50vh;
     }
@@ -292,9 +250,6 @@
         margin-top: 0!important;
         margin-left: 0!important;
         padding-left: 1rem;
-    }
-    .a_m{
-        width: 20%;
     }
     footer{
         display: block;
