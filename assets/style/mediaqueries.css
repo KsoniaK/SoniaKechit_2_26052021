@@ -327,7 +327,7 @@ span i{
     margin-left: auto;
     box-shadow: 5px 3px 25px lightgray;
 }
-.activites_marseille_image_texte_grand, .activites_marseille_image_texte_moyen, .activites_marseille_image_texte_petit{
+.activites_marseille_image_texte_flex{
     margin: .5rem;
 }
 .activites_image, .activites_image_un, .activites_image_deux, .activites_image_trois{
@@ -449,7 +449,7 @@ footer a{
         footer{
             display: block;
         }
-        footer section{
+        .mentions{
             display: flex;
             justify-content: space-between;
             margin-left: 1.5rem;

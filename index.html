@@ -55,7 +55,7 @@
         </div>
 
         <!-- ICI LA FONCTION RECHERCHER -->
-        <section class="rechercher">
+        <div class="rechercher">
             <div class="bouton">
                 <div class="emoticone_rechercher">
                     <i class="fas fa-map-marker-alt"></i>
@@ -66,9 +66,9 @@
                     <span><strong>Rechercher</strong></span>
                 </button>
             </div>
-        </section>
+        </div>
 
-        <!-- ICI LA SECTION FILTRES -->
+        <!-- ICI LES FILTRES -->
         <section class="filtres">
             <h3>Filtres</h3>
             <!-- PREMIER FILTRE -->
@@ -100,9 +100,9 @@
                     </span>
                     <span class="p_filtre">Animaux autorisés</span>
                 </button>
+            </div>
         </section>
-        </div>
-
+       
         <!-- ICI LE POINT INFORMATION -->
         <div class="information">
             <div class="information_emoticone">
@@ -183,7 +183,7 @@
                 </a>
             </section>
 
-            <!-- SECTION HEBERGEMENTS A MARSEILLE -->
+            <!-- HEBERGEMENTS A MARSEILLE -->
             <section id="marseille">
                 <div class="marseille_titre">
                     <h2>Hébergements à Marseille</h2>
@@ -317,17 +317,18 @@
                 <a href="#" class="afficher_plus">
                     <p class="a_p"><strong>Afficher plus</strong></p>
                 </a>
+                
             </section>
         </div>
 
-        <!-- SECTION ACTIVITE A MARSEILLE -->
+        <!-- TITRE ACTIVITE A MARSEILLE -->
         <div class="titre_activites_marseille">
             <h2>Activités à Marseille</h2>
         </div>
         <!-- PREMIERE AM -->
         <section id="activites_marseille">
             <a href="#">
-                <article class="activites_marseille_image_texte_grand">
+                <div class="activites_marseille_image_texte_flex">
                 <article class="activites_marseille_image_texte">
                     <div class="activites_image_un">
                         <img src="assets/img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
@@ -337,12 +338,12 @@
                         <h3>Vieux Port</h3>
                     </div>
                 </article>
-            </article>
+            </div>
             </a>
             <!-- DEUXIEME AM -->
             <div class="premier_bloc">
                 <a href="#">
-                    <article class="activites_marseille_image_texte_moyen">
+                    <div class="activites_marseille_image_texte_flex">
                     <article class="activites_marseille_image_texte">
                         <div class="activites_image_deux">
                             <img src="assets/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
@@ -352,11 +353,11 @@
                             <h3>Fort de Pomègues</h3>
                         </div>
                     </article>
-                </article>
+                </div>
                 </a>
                 <!-- TROISIEME AM -->
                 <a href="#">
-                    <article class="activites_marseille_image_texte_petit">
+                    <div class="activites_marseille_image_texte_flex">
                     <article class="activites_marseille_image_texte">
                         <div class="activites_image_trois">
                             <img src="assets/img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
@@ -366,12 +367,12 @@
                             <h3>Iles du Frioul</h3>
                         </div>
                     </article>
-                </article>
+                </div>
                 </a>
             </div>
             <!-- QUATRIEME AM -->
             <a href="#">
-                <article class="activites_marseille_image_texte_grand">
+                <div class="activites_marseille_image_texte_flex">
                 <article class="activites_marseille_image_texte">
                     <div class="activites_image_un">
                         <img src="assets/img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
@@ -381,12 +382,12 @@
                         <h3>Parc National des Calanques</h3>
                     </div>
                 </article>
-            </article>
+            </div>
             </a>
             <!-- CINQUIEME AM -->
             <div class="premier_bloc">
                 <a href="#">
-                    <article class="activites_marseille_image_texte_petit">
+                    <div class="activites_marseille_image_texte_flex">
                     <article class="activites_marseille_image_texte">
                         <div class="activites_image_trois">
                             <img src="assets/img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
@@ -396,11 +397,11 @@
                             <h3>Notre-Dame-de-la-Garde</h3>
                         </div>
                     </article>
-                </article>
+                </div>
                 </a>
                 <!-- SIXIEME AM -->
                 <a href="#">
-                    <article class="activites_marseille_image_texte_moyen">
+                    <div class="activites_marseille_image_texte_flex">
                     <article class="activites_marseille_image_texte">
                         <div class="activites_image_deux">
                             <img src="assets/img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
@@ -410,7 +411,7 @@
                             <h3>Parc Longchamp</h3>
                         </div>
                     </article>
-                </article>
+                </div>
                 </a>
             </div>
         </section>
@@ -420,27 +421,27 @@
 
     <!-- ICI LE FOOTER -->
     <footer>
-        <section>
-        <!-- SECTION A PROPOS -->
+        <div class="mentions">
+        <!-- A PROPOS -->
         <div class="a_propos">
             <h4>A propos</h4>
             <p><a href="#">Fonctionnement du site</a></p>
             <p><a href="#">Conditions générales de vente</a></p>
             <p><a href="#">Données et confidentialité</a></p>
         </div>
-        <!-- SECTION HEBERGEMENTS -->
+        <!-- HEBERGEMENTS -->
         <div class="nos_hebergements">
             <h4>Nos Hébergements</h4>
             <p><a href="#">Charte qualité</a></p>
             <p><a href="#">Soumettre votre hôtel</a></p>
         </div>
-        <!-- SECTION ASSISTANCE -->
+        <!-- ASSISTANCE -->
         <div class="assistance">
             <h4>Assistance</h4>
             <p><a href="#">Centre d'aide</a></p>
             <p><a href="#">Nous contacter</a></p>
         </div>
-    </section>
+    </div>
     </footer>
     <!-- FIN DU FOOTER -->
 </body>

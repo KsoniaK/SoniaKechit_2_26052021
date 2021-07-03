@@ -181,13 +181,6 @@
     }
     #activites_marseille a{
         height: 100%;
-        /* le laisser pour mozilla, enlever pour chrome ----------------------------------------------------------*/
-        /* width: 25%; */
-        
-    }
-    .activites_marseille_image_texte_grand{
-        border-radius: 1rem;
-        box-shadow: 5px 3px 25px lightgrey;
     }
     .activites_marseille_image_texte{
         width: 100%;
@@ -199,34 +192,16 @@
     #activites_marseille a{
         text-decoration: none;
         color: #0065FC;
+        width: 22%;
     }
-    .activites_marseille_image_texte_grand{
-        width: 80%;
-        margin: 1.5rem;
-        background-color: white;
-        border-radius: 1rem;
-        align-items: center;
-        box-shadow: 5px 3px 25px lightgray;
+    .premier_bloc{
+        width: 20%;
     }
-    .activites_marseille_image_texte_moyen{
-        /* le laisser pour chrome, enlever pour mozilla -------------------------------------------------------*/
-        width: 80%; 
-        /* le laisser pour chrome, enlever pour mozilla -------------------------------------------------------*/
-        height: 47%;
-
+    .premier_bloc a{
+        width: 100%;
+    }
+    .activites_marseille_image_texte_flex{
         margin-top: 1.5rem;
-        background-color: white;
-        border-radius: 1rem;
-        align-items: center;
-        margin-right: auto;
-        margin-left: auto;
-        box-shadow: 5px 3px 25px lightgray;
-    }
-    .activites_marseille_image_texte_petit{
-        /* le laisser pour chrome, enlever pour mozilla ------------------------------------------------------ */
-        width: 80%; 
-
-        margin: 1.5rem;
         background-color: white;
         border-radius: 1rem;
         align-items: center;
@@ -247,8 +222,8 @@
         height: 18vh;
     }
     .activites_texte{
-        margin-top: 0!important;
-        margin-left: 0!important;
+        margin-top: 0;
+        margin-left: 0;
         padding-left: 1rem;
     }
     footer{
@@ -258,7 +233,7 @@
         text-decoration: none;
         color: black;
     }
-    footer section{
+    .mentions{
         display: flex;
         width: 75%;
         justify-content: space-between;
